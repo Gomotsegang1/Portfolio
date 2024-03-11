@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mediaqueries.css">
+</head>
+<body>
+    <nav id="desktop-nav">
+        <div class="logo">Gomotsegang Matloa</div>
+        <div>
+            <ul class="nav-links">
+                <li><a href="#experience">Background</li>
+                <li><a href="#projects">Projects</li>
+                    <li><a href="#skills">Skills</li>   
+                <li><a href="#contact">Contact</li>
+            </ul>
+        </div>
+    </nav>
+    <nav id="hamburger-nav">
+        <div class="logo">Gomotsegang Matloa</div>
+        <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <div class= "menu-links" >
+          
+                <li><a href="#experience" onclick="toggleMenu()"> Background </a></li>
+                <li><a href="#projects" onclick="toggleMenu()">Projects </a></li>
+                <li><a href="#skills" onclick="toggleMenu()">Projects </a></li>
+                <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+             </div>
+     </div>
+    </nav>
+<section id="profile">
+    <div class="section__pic-container">
+      <img src="./assets/about-pic.png " alt="My profile picture"/>
+
+    </div>
+    <div class="section__text">
+      <p class="section__text__p1">Hi there , I'm</p>
+      <h1 class="title">Gomotsegang Matloa</h1>
+      <h2 class="sub-title">Software Developer</h2>
+      <p class="section__text__p2">An enthusiastic  individual With a solid foundation in programming and a passion for learning, I am eager to collaborate with experienced professionals to develop innovative solutions that make a difference. I bring a proactive approach, strong problem-solving skills, and a dedication to delivering high-quality software products. 
+
+
+
+
+
+
+      <div class="btn-container">
+        <button
+          class="btn btn-color-2"
+          onclick="window.open('./assets/GomotsegangResume.docx')" >
+          Download CV
+        </button>
+        <button class="btn btn-color-1" onclick="location.href='./#contact'">
+          Contact Info
+        </button>
+      </div>
+      <div id="socials-container">
+        <img
+          src="./assets/linkedin.png"
+          alt="My LinkedIn profile"
+          class="icon"
+          onclick="location.href='https://www.linkedin.com/in/nadine-matloa-a56240234?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app'"/>
+        
+        <img
+          src="./assets/github.png"
+          alt="My Github profile"
+          class="icon"
+          onclick="location.href='https://github.com/Gomotsegang1'"/> 
+
+      </div>
+    </div>
+  </section>
+  <section id="experience">
+    <!-- <p class="section__text__p1">Get To Know More</p> -->
+    <h1 class="title">Work Experience & Education</h1>
+    <div class="section-container">
+      <div class="about-details-container">
+        <div class="about-containers">
+          <div class="details-container">
+            <img
+              src="./assets/experience.png"
+              alt="Experience icon"
+              class="icon"
+            />
+            <h3>ABSA via The Digital Academy</h3>
+            <p> iOS Development Intern<br>							                          
+
+
+                •	Developed an iOS application (Agri Fund) using Swift, UIKit, and MVVM. The application enables South African farmers to apply for business funding from ABSA.</br>
+                •	Worked on ABSA's iOS platform to migrate old code from Barclays Mobile Gateway (Objective-C) to Absa's Express (Swift).
+                 
+                </p>
+          </div>
+          <div class="details-container">
+            <img
+              src="./assets/experience.png"
+              alt="Education icon"
+              class="icon"
+            />
+            <h3>Sefako Makgatho health Sciences University</h3>
+            <p>Student Assistant<br>
+
+            •	Hired by the university to assist students with personal laptop issues and develop systems beneficial to the university.</br>
+•	 Developed a ticket system to automate the process of taking students' laptops, reducing queue times
+          </p>
+
+          </div>
+        </div>
+      </div>
+    </div>
+    <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#experience'"
+      />
+    </section>
+    <section id="experience">
+        <p class="section__text__p1">Explore My</p>
+        <h1 class="title">Skills</h1>
+        <div class="experience-details-container">
+          <div class="about-containers">
+            <div class="details-container">
+              <h2 class="experience-sub-title">programming Languages</h2>
+              <div class="article-container">
+                <article>
+                  <img
+                    src="./assets/html5-without-wordmark-color-logo-14D252D878-seeklogo.com.png"
+                    alt="Experience icon"
+                    class="icon"
+                  />
+                  <div>
+                    <h3>HTML</h3>
+                    <p>Experienced</p>
+                  </div>
+                </article>
+                <article>
+                  <img
+                    src="./assets/css-3-logo-023C1A7171-seeklogo.com.png"
+                    alt="Experience icon"
+                    class="icon"
+                  />
+                  <div>
+                    <h3>CSS</h3>
+                    <p>Experienced</p>
+                  </div>
+                </article>
+                <article>
+                  <img
+                    src="./assets/java-logo-7833D1D21A-seeklogo.com.png"
+                    alt="Experience icon"
+                    class="icon"
+                  />
+                  <div>
+                  <h3>Java</h3>
+                    <p>Experienced</p>
+                  </div>
+                </article>
+                <article>
+                  <img
+                    src="./assets/javascript-js-logo-2949701702-seeklogo.com.png"
+                    alt="Experience icon"
+                    class="icon"
+                  />
+                  <div>
+                    <h3>JavaScript</h3>
+                    <p>Experienced</p>
+                  </div>
+                </article>
+                <article>
+                  <img
+                    src="./assets/mysql-logo-69B39F7D18-seeklogo.com.png"
+                    alt="Experience icon"
+                    class="icon"
+                  />
+                  <div>
+                    <h3>SQL</h3>
+                    <p>Intermediate</p>
+                  </div>
+                </article>
+                <article>
+                  <img
+                    src="./assets/swift.png"
+                    alt="Experience icon"
+                    class="icon"
+                  />
+                  <div>
+                    <h3>Swift</h3>
+                    <p>Experienced</p>
+                  </div>
+                </article>
+                <article>
+                  <img
+                    src="./assets/kotlin-logo-30C1970B05-seeklogo.com.png"
+                    alt="Experience icon"
+                    class="icon"
+                  />
+                  <div>
+                    <h3>Kotlin</h3>
+                    <p>Basic</p>
+                  </div>
+                </article>
+              </div>
+            </div>
+            <div class="details-container">
+              <h2 class="experience-sub-title">Tools</h2>
+              <div class="article-container">
+                <article>
+                  <img
+                    src="./assets/xcode-logo-D2046A7713-seeklogo.com.png"
+                    alt="Experience icon"
+                    class="icon"
+                  />
+                  <div>
+                    <h3>Xcode</h3>
+                    <p>Experienced</p>
+                  </div>
+                </article>
+                <article>
+                  <img
+                    src="./assets/figma.png"
+                    alt="Experience icon"
+                    class="icon"
+                  />
+                  <div>
+                    <h3>Figma</h3>
+                    <p>Intermediate</p>
+                  </div>
+                </article>
+                <article>
+                  <img
+                    src="./assets/react.png"
+                    alt="Experience icon"
+                    class="icon"
+                  />
+                  <div>
+                    <h3>react JS</h3>
+                    <p>Experienced</p>
+                  </div>
+                </article>
+                <article>
+                  <img
+                    src="./assets/git-logo-CD8D6F1C09-seeklogo.com.png"
+                    alt="Experience icon"
+                    class="icon"
+                  />
+                  <div>
+                    <h3>Git</h3>
+                    <p>Experienced</p>
+                  </div>
+                </article>
+              </div>
+            </div>
+          </div>
+        </div>
+        <img
+          src="./assets/arrow.png"
+          alt="Arrow icon"
+          class="icon arrow"
+          onclick="location.href='./#projects'"
+        />
+      </section>
+    <section id="projects">
+      <p class="section__text__p1">Browse My Recent</p>
+      <h1 class="title">Projects</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/portfolio.png"
+                alt="Project 1"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Portfolio</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/'"
+              >
+                Github
+              </button>
+    
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/project2.png"
+                alt="Project 2"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">AgriFund</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/The-DigitalAcademy/iosAgrifund'"
+              >
+                Github
+              </button>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/clothingAvenue.png"
+                alt="Project 3"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Clothing Avenue</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/Gomotsegang1/iosAlphaEcommerce'"
+              >
+                Github
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#contact'"
+        />
+    </section>
+    <section id="contact">
+      <p class="section__text__p1">Get in Touch</p>
+      <h1 class="title">Contact Me</h1>
+      <div class="contact-info-upper-container">
+        <div class="contact-info-container">
+          <img
+            src="./assets/email.png"
+            alt="Email icon"
+            class="icon contact-icon email-icon"
+          />
+          <p><a href="mailto:nadinematloa@gmail.com">nadinematloa@gmail.com</a></p>
+        </div>
+        <div class="contact-info-container">
+          <img
+            src="./assets/linkedin.png"
+            alt="LinkedIn icon"
+            class="icon contact-icon"
+          />
+          <p><a href="https://www.linkedin.com">LinkedIn</a></p>
+        </div>
+        <div class="contact-info-container">
+          <img
+            src="./assets/png-clipart-white-telephone-illustration-phone-icon-in-a-circle-electronics-phone-icons-thumbnail.png"
+            alt="phone icon"
+            class="icon contact-icon phone-icon"
+          />
+          <p><a href="tel:examplemail@gmail.com">0848346069</a></p>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <nav>
+        <div class="nav-links-container">
+          <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+      <p>Copyright &#169; 2024 Gomotsegang Matloa. All Rights Reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
