@@ -85,7 +85,7 @@ nav {
 .nav-links {
     gap: 2rem;
     list-style: none;
-    font-size: 1.8rem;
+    font-size: 1.5rem;
 }
 
 a {
@@ -330,8 +330,8 @@ nav a:hover {
 
   /* EXPERIENCE SECTION */
 
-#{
-    position: absolute;
+#about{
+    position: relative;
   }
   
   .about-containers {
@@ -395,6 +395,10 @@ nav a:hover {
     margin: auto 0;
   }
 
+/* EDUCATION SECTION */
+
+#education{
+ position: relative;}
   /* EXPERIENCE SECTION */
 
 #skills {
