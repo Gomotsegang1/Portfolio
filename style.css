@@ -97,13 +97,13 @@ a {
 a:hover {
     text-decoration: underline;
     text-underline-offset: 0.5rem; 
-    text-decoration-color: var(--secondary-color);
+    text-decoration-color: var(--primary-color-3);
  
 }
 
 nav a:hover {
-  color: var(--secondary-color);
-  text-decoration-color: var(--secondary-color);
+  color: rgb(238, 193, 210);
+  text-decoration-color: rgb(238, 193, 210);
 }
 
 
@@ -225,7 +225,7 @@ nav a:hover {
     height: 400px;
     width: 400px;
     margin: auto 0;
-    background-color: rgb(236, 210, 225);
+    background-color: rgb(238, 193, 210);
     border-width: 1000px;
     border-radius: 50%;
    
@@ -257,7 +257,7 @@ nav a:hover {
     text-align: center;
   }
   .sub-title {
-
+    color: var(--secondary-color-2);
     font-size: 2rem;
     text-align: center; 
   }
